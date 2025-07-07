@@ -1,12 +1,28 @@
 body {
 
-    background-image: url('assets/images/friends_rossHoldsEightBall.png');
+    background-image: url('assets/images/friends_combinedEightBall.png');
     background-repeat: no-repeat;
     background-position: 20% center;  /*to focus on 8 ball */
     background-size: cover;
     height: 100vh;
     margin: 0;
 
+}
+
+#clickTarget {
+    
+    position: absolute;
+    top: 33%;
+    right: 44%;
+    width: 140px;
+    height: 140px;
+    /* 
+    
+    To test the box range:
+    
+    background-color: rgba(255, 0, 0, 0.3);
+    
+    */
 }
 
 
