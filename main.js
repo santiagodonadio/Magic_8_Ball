@@ -14,7 +14,6 @@ eightBall.addEventListener("click", () => {
 });
 
 
-
 // 10 positive answers, 5 negative answers, and 5 neutral answers
 
 const responses = [
