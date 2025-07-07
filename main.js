@@ -44,7 +44,15 @@ function showRandomResponses(){
     const responseText = document.getElementById("responseText");
     const randomIndex = Math.floor(Math.random() * responses.length);
     responseText.textContent = responses[randomIndex];
-    responseText.style.display = "block"
+    responseText.style.display = "block";
+
+    setTimeout(() => {
+        responseBall.style.display = "none";
+        responseText.style.display = "none";
+        eightBall.style.display = "block";
+        eightBall.classList.remove("shake");
+    }, 4000);
+
 }
 
 
