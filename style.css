@@ -2,9 +2,13 @@ body {
 
     background-image: url('assets/images/friends_rossHoldsEightBall.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 20% center;  /*to focus on 8 ball */
     background-size: cover;
     height: 100vh;
     margin: 0;
 
 }
+
+
+
+
