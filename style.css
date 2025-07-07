@@ -27,6 +27,15 @@ body {
     cursor: pointer;
 }
 
+#mainEightBall {
+    display: none;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    width: 400px;
+
+}
+
 
 
 
